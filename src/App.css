@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.project-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: #222;
+  color: white;
+}
